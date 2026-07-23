@@ -1,4 +1,5 @@
 """ Dezimale und Bnärepräfixe im Vergleich """
+"""Decimals and Binary prefixes compared"""
 praefix_SI = ("Kilo","Mega","Gige","Tera","Peta","Exa","Zetta","Yotta") #Tupel list
 for i,praefix_dec in enumerate (praefix_SI,1):
     praefix_bin= praefix_dec [:2] +"bi"
